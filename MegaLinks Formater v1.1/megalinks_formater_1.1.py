@@ -52,7 +52,7 @@ saveLines = []
 for line in txtReaded:
     if "/file/" in line:
         megaReplace1 = line.replace("#", "!")
-        megaReplace2 = megaReplace1.replace("/file/", "/#f!")
+        megaReplace2 = megaReplace1.replace("/file/", "/#!")
         print(megaReplace2)
         saveLines.insert(y, megaReplace2)
         y += 1
